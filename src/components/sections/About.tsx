@@ -18,7 +18,7 @@ export default function About() {
           visibility: "inherit",
         }}
       >
-        Contact
+        About
       </h2>
       <div className="about  mt-10 ">
         <div className="section section-bio">
@@ -26,7 +26,7 @@ export default function About() {
           <div data-copy-wrapper="true">
             <p>
               Violinist. Full-stack developer. Neuroscience researcher at Boston
-              University. I like creating things—music, food, web apps.
+              University. I like making music, food, and web apps.
             </p>
             <br />
             <p>Currently based in Boston, Massachusetts.</p>
@@ -39,19 +39,23 @@ export default function About() {
               My first exposure to Python was in college in 2021—I started
               writing data analysis scripts and scientific code, then got into
               web development in 2024. Since then, I&apos;ve built a handful of
-              projects and worked with some incredible people to bring their
-              ideas to life. I love bringing ideas into reality and I&apos;m
-              always planning something new. My most recent full-stack project
-              is URTEXT, a blogging platform for classical musicians. Currently
-              working on TripLog, a travel blogging app. Right now, I&apos;m
-              balancing finishing my M.S. in neuroscience with building creative
-              web development projects.
+              projects; I love bringing ideas into reality and I&apos;m always
+              planning something new.
             </p>
             <br />
             <p>
-              Currently, I aim to strike a balance between finishing my
-              neuroscience research m.s degree and working on creative web
-              development projects.
+              My most recent full-stack project is{" "}
+              <a href="https://github.com/lizzyjoo/blog-project">URTEXT</a>, a
+              blogging platform for classical musicians. I am currently working
+              on <a href="https://github.com/lizzyjoo/triplog">TripLog</a>, a
+              travel blogging platform with AI-powered semantic search, built
+              with Next.js and TypeScript.
+            </p>
+            <br />
+            <p>
+              Right now, I&apos;m completing my M.S. in Neuroscience and
+              transitioning into software engineering through full-stack
+              projects.
             </p>
           </div>
         </div>

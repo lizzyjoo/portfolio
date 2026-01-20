@@ -40,7 +40,6 @@
 }
 
 .about p,
-.about a,
 .about li {
   color: #121212;
   font-family: Satoshi-Variable, sans-serif;
@@ -50,6 +49,9 @@
   transition: color 0.3s;
 }
 
+.about a {
+  text-decoration: underline;
+}
 .socials {
   gap: 1em;
   display: flex;
