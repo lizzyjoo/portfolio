@@ -39,9 +39,9 @@
   }
 }
 
-p,
-a,
-li {
+.about p,
+.about a,
+.about li {
   color: #121212;
   font-family: Satoshi-Variable, sans-serif;
   font-size: 14px;
