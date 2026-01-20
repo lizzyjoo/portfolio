@@ -4,9 +4,23 @@ export default function About() {
     <section
       id="about"
       data-section-name="about"
-      className="relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24"
+      className="relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24 "
+      style={{ backgroundColor: "#faf9f6" }}
     >
-      <div className="about">
+      <h2
+        className="text-6xl md:text-8xl text-gray-500gsap-section-title font-bold"
+        style={{
+          translate: "none",
+          rotate: "none",
+          scale: "none",
+          transform: "translate3d(0px, -5.844px, 0px)",
+          opacity: 1,
+          visibility: "inherit",
+        }}
+      >
+        Contact
+      </h2>
+      <div className="about  mt-10 ">
         <div className="section section-bio">
           <h2 className="label">BIO</h2>
           <div data-copy-wrapper="true">

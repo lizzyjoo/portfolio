@@ -1,21 +1,75 @@
+"use client";
+import { useState, useEffect } from "react";
+const sectionThemes = {
+  home: {
+    textColor: "black",
+  },
+  software: {
+    textColor: "white",
+  },
+  services: {
+    textColor: "black",
+  },
+  research: {
+    textColor: "white",
+  },
+  music: {
+    textColor: "black",
+  },
+  about: {
+    textColor: "black",
+  },
+} as const;
+
+type SectionId = keyof typeof sectionThemes;
+
 export default function Header() {
+  const [currentSection, setCurrentSection] = useState<SectionId>("home");
+
+  useEffect(() => {
+    const sections = document.querySelectorAll("section[id]");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id as SectionId;
+            if (id in sectionThemes) {
+              setCurrentSection(id);
+            }
+          }
+        });
+      },
+      {
+        // Triggers when section crosses roughly where the header sits
+        rootMargin: "-10% 0px -85% 0px",
+        threshold: 0,
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
+
+  const theme = sectionThemes[currentSection];
+
   return (
     <header
       id="main-header"
       className="fixed top-0 left-0 w-full p-8 lg:p-12 z-[100] transition-colors duration-500"
-      style={{ backgroundColor: "transparent" }}
+      style={{ color: theme.textColor }}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center text-sm">
         <div className="relative">
           <div
             id="header-initial-left"
-            className="flex gap-x-6 text-black"
+            className="flex gap-x-6"
             style={{ opacity: 1, visibility: "inherit" }}
           >
             <a
               href="#software"
               data-cursor-view=""
-              className="hover:text-gray-500 transition-colors"
+              className="hover:opacity-60 transition-opacity"
             >
               Software
             </a>{" "}
@@ -60,7 +114,7 @@ export default function Header() {
         <div className="relative">
           <p
             id="header-initial-right"
-            className="text-black hidden md:block"
+            className="hidden md:block"
             style={{ opacity: 1, visibility: "inherit" }}
           >
             Web Developer
