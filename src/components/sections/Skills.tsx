@@ -18,7 +18,7 @@ export default function Skills() {
             visibility: "inherit",
           }}
         >
-          Services
+          Skills
         </h2>
         <div className="">
           <p
