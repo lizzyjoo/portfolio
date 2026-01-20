@@ -4,7 +4,7 @@ export default function About() {
     <section
       id="about"
       data-section-name="about"
-      className="relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24 "
+      className="sect relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24 "
       style={{ backgroundColor: "#faf9f6" }}
     >
       <h2

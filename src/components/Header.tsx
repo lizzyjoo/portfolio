@@ -11,7 +11,7 @@ const sectionThemes = {
     textColor: "black",
   },
   research: {
-    textColor: "white",
+    textColor: "black",
   },
   music: {
     textColor: "black",

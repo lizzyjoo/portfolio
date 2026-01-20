@@ -3,7 +3,7 @@ export default function Skills() {
     <section
       id="services"
       data-section-name="services"
-      className="relative w-full px-8 py-16 md:px-16 lg:px-24 flex items-center min-h-screen"
+      className="sect relative w-full px-8 py-16 md:px-16 lg:px-24 flex items-center min-h-screen"
       style={{ backgroundColor: "#f5f5f0" }}
     >
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 gap-8 items-start">

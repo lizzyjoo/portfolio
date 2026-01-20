@@ -7,7 +7,7 @@ export default function Music() {
     <section
       id="music"
       data-section-name="music"
-      className="relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24 flex items-center"
+      className="sect relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24 flex items-center"
       style={{ backgroundColor: "white", color: "#0f0f0f" }}
     >
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 gap-8 md:gap-16 items-start">

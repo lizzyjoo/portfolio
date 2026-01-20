@@ -3,7 +3,7 @@ export default function Main() {
     <section
       id="home"
       data-section-name="home"
-      className="relative min-h-screen w-full p-8 lg:p-12 text-black flex items-center bg-[var(--background-light-brand)]"
+      className="sect relative min-h-screen w-full p-8 lg:p-12 text-black flex items-center bg-[var(--background-light-brand)]"
     >
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-y-16 pt-32">
         <div className="md:col-span-3">
