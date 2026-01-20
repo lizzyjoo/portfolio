@@ -2,10 +2,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: max(20px, min(2vw, 24px));
   width: 100%;
-  min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 11rem 2em 3.75rem; */
   display: grid;
   position: relative;
 }
@@ -50,13 +48,12 @@
 }
 
 .about a {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 700;
 }
 .socials {
-  gap: 1em;
+  gap: 2em;
   display: flex;
-  position: absolute;
-  bottom: 2rem;
 }
 
 @media (max-width: 1279px) {

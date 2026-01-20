@@ -10,13 +10,10 @@ export default function Home() {
     <main>
       <Header />
       <Main />
-
-      {/* <Software /> */}
       <Skills />
       <Research />
       <Music />
       <About />
-      {/* <Contact /> */}
     </main>
   );
 }

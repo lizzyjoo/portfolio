@@ -66,11 +66,9 @@ export default function About() {
               For business inquiries, email me at{" "}
               <a href="mailto:alxlokasasmita@gmail.com">lizzy99joo@gmail.com</a>
             </p>
-            <br />
           </div>
-          <br />
         </div>
-        <div className="socials">
+        <div className="socials mt-0">
           <a target="_blank" href="https://www.youtube.com/@elizabethjoo1999">
             youtube
           </a>
@@ -82,6 +80,9 @@ export default function About() {
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/lizzyjoo">
             linkedin
+          </a>
+          <a href="mailto:lizzy99joo@gmail.com" target="_blank">
+            email
           </a>
         </div>
       </div>
