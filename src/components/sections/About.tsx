@@ -1,56 +1,70 @@
+import "./about.css";
 export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24 flex items-center bg-gray-900"
+      data-section-name="about"
+      className="relative min-h-screen w-full px-8 py-16 md:px-16 lg:px-24"
     >
-      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 gap-8 md:gap-16">
-        <h2 className="text-6xl md:text-8xl text-gray-500 font-bold">About</h2>
-        <div className="grid grid-cols1 md:grid-cols-2 gap-12">
-          <p
-            className="text-3xl md:text-4xl text-white gsap-fade-up"
-            style={{
-              translate: "none",
-              rotate: "none",
-              scale: "none",
-              opacity: 1,
-              visibility: "inherit",
-              transform: "translate(0px, 0px)",
-            }}
-          >
-            hello, I&apos;m Lizzy Joo 👋 a full-stack developer based in Boston.
-            I love to travel &amp; create websites.
-          </p>
-          <div className="flex flex-col md:flex-row items-start gap-8">
-            <div
-              className="w-fit h-fit lg:h-64 bg-gray-800 rounded-md gsap-fade-up bg-no-repeat aspect-square bg-contain"
-              style={{
-                backgroundImage:
-                  'url("https://avatars.githubusercontent.com/u/58314282")',
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
-            />
-            <p
-              className="md:w-1/2 text-brand-gray gsap-fade-up"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
-            >
-              I love to collaborate and create fun websites. I also love to try
-              out new things and travel. I&apos;m also an avid gamer, weeb and
-              love to attend conventions.
+      <div className="about">
+        <div className="section section-bio">
+          <h2 className="label">BIO</h2>
+          <div data-copy-wrapper="true">
+            <p>
+              Violinist. Full-stack developer. Neuroscience researcher at Boston
+              University. I like creating things—music, food, web apps.
+            </p>
+            <br />
+            <p>Currently based in Boston, Massachusetts.</p>
+          </div>
+        </div>
+        <div className="section section-clients">
+          <h2 className="label">PERSONAL STORY</h2>
+          <div data-copy-wrapper="true">
+            <p>
+              My first exposure to Python was in college in 2021—I started
+              writing data analysis scripts and scientific code, then got into
+              web development in 2024. Since then, I&apos;ve built a handful of
+              projects and worked with some incredible people to bring their
+              ideas to life. I love bringing ideas into reality and I&apos;m
+              always planning something new. My most recent full-stack project
+              is URTEXT, a blogging platform for classical musicians. Currently
+              working on TripLog, a travel blogging app. Right now, I&apos;m
+              balancing finishing my M.S. in neuroscience with building creative
+              web development projects.
+            </p>
+            <br />
+            <p>
+              Currently, I aim to strike a balance between finishing my
+              neuroscience research m.s degree and working on creative web
+              development projects.
             </p>
           </div>
+        </div>
+        <div className="section section-connect">
+          <h2 className="label">CONNECT</h2>
+          <div data-copy-wrapper="true">
+            <p>
+              For business inquiries, email me at{" "}
+              <a href="mailto:alxlokasasmita@gmail.com">lizzy99joo@gmail.com</a>
+            </p>
+            <br />
+          </div>
+          <br />
+        </div>
+        <div className="socials">
+          <a target="_blank" href="https://www.youtube.com/@elizabethjoo1999">
+            youtube
+          </a>
+          <a target="_blank" href="https://www.instagram.com/lizzy.joo/">
+            insta
+          </a>
+          <a target="_blank" href="https://github.com/lizzyjoo">
+            github
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/lizzyjoo">
+            linkedin
+          </a>
         </div>
       </div>
     </section>

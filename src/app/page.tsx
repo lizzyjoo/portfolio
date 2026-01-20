@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import About from "@/components/sections/About";
 import Software from "@/components/sections/Software";
+import Skills from "@/components/sections/Skills";
 import Research from "@/components/sections/Research";
 import Music from "@/components/sections/Music";
 import Contact from "@/components/sections/Contact";
@@ -88,10 +89,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <About />
+
       <Software />
+      <Skills />
       <Research />
       <Music />
+      <About />
       <Contact />
     </main>
   );

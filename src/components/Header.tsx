@@ -13,25 +13,11 @@ export default function Header() {
             style={{ opacity: 1, visibility: "inherit" }}
           >
             <a
-              href="#about"
-              data-cursor-view=""
-              className="hover:text-gray-500 transition-colors"
-            >
-              About
-            </a>{" "}
-            <a
               href="#software"
               data-cursor-view=""
               className="hover:text-gray-500 transition-colors"
             >
               Software
-            </a>{" "}
-            <a
-              href="#music"
-              data-cursor-view=""
-              className="hover:text-gray-500 transition-colors"
-            >
-              Music
             </a>{" "}
             <a
               href="#Research"
@@ -40,6 +26,20 @@ export default function Header() {
             >
               Research
             </a>
+            <a
+              href="#music"
+              data-cursor-view=""
+              className="hover:text-gray-500 transition-colors"
+            >
+              Music
+            </a>{" "}
+            <a
+              href="#about"
+              data-cursor-view=""
+              className="hover:text-gray-500 transition-colors"
+            >
+              About
+            </a>{" "}
             <a
               href="#contact"
               data-cursor-view=""
