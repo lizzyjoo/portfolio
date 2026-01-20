@@ -67,7 +67,7 @@ export default function Header() {
             style={{ opacity: 1, visibility: "inherit" }}
           >
             <a
-              href="#software"
+              href="#skills"
               data-cursor-view=""
               className="hover:opacity-60 transition-opacity"
             >
