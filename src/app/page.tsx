@@ -95,7 +95,7 @@ export default function Home() {
       <Research />
       <Music />
       <About />
-      <Contact />
+      {/* <Contact /> */}
     </main>
   );
 }

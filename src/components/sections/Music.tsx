@@ -26,7 +26,7 @@ export default function Music() {
         <div id="piano" className="">
           {" "}
           <div className="keys">
-            <button>
+            <button className="ext-links">
               <a href="https://youtu.be/NVWJocvldm8">
                 December 2025 Violin & Piano Duo Recital @MIT
               </a>
@@ -34,8 +34,11 @@ export default function Music() {
             <button></button>
             <button className="normal"></button>
             <button></button>
-            <button>
-              <a href=" https://youtu.be/oy46v--n0lc?si=tFqdZIihY99f_0lQ&t=1440">
+            <button className="ext-links">
+              <a
+                href=" https://youtu.be/oy46v--n0lc?si=tFqdZIihY99f_0lQ&t=1440"
+                className="ext-links"
+              >
                 Feburary 2018 Concerto Competition Winners&apos; Concert
               </a>
             </button>

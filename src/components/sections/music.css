@@ -9,6 +9,10 @@
   /* background-color: black; */
   /* border-radius: 10px; */
 }
+
+button.ext-links:hover a {
+  color: white;
+}
 .keys {
   display: flex;
   --key-width: calc(100% / 7);
