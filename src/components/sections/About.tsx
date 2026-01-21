@@ -20,7 +20,7 @@ export default function About() {
       >
         About
       </h2>
-      <div className="about  mt-10 ">
+      <div className="about mt-10 flex flex-col gap-12 md:grid md:grid-cols-3 md:gap-16 ">
         <div className="section section-bio">
           <h2 className="label">BIO</h2>
           <div data-copy-wrapper="true">
