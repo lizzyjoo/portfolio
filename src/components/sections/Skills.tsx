@@ -1,8 +1,8 @@
 export default function Skills() {
   return (
     <section
-      id="services"
-      data-section-name="services"
+      id="skills"
+      data-section-name="skills"
       className="sect relative w-full px-8 py-16 md:px-16 lg:px-24 flex items-center min-h-screen"
       style={{ backgroundColor: "#f5f5f0" }}
     >

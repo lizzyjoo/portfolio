@@ -74,7 +74,7 @@ export default function Header() {
               Software
             </a>{" "}
             <a
-              href="#Research"
+              href="#research"
               data-cursor-view=""
               className="hover:text-gray-500 transition-colors"
             >
@@ -94,13 +94,6 @@ export default function Header() {
             >
               About
             </a>{" "}
-            <a
-              href="#contact"
-              data-cursor-view=""
-              className="hover:text-gray-500 transition-colors"
-            >
-              Contact
-            </a>
           </div>
           <p
             id="header-scrolled-left"
