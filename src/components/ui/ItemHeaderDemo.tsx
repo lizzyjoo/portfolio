@@ -35,7 +35,7 @@ const models = [
 export function ItemHeaderDemo() {
   return (
     <div className="flex w-full max-w-xxl gap-6 justify-center">
-      <ItemGroup className=" grid grid-cols-4 gap-4">
+      <ItemGroup className="grid grid-cols-1 lg:grid-cols-4 gap-8 gsap-fade-up">
         {models.map((model) => (
           <Item key={model.name} variant="outline">
             <ItemHeader>
