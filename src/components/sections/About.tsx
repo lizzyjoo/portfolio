@@ -64,7 +64,7 @@ export default function About() {
           <div data-copy-wrapper="true">
             <p>
               For business inquiries, email me at{" "}
-              <a href="mailto:alxlokasasmita@gmail.com">lizzy99joo@gmail.com</a>
+              <a href="mailto:lizzy99joo@gmail.com">lizzy99joo@gmail.com</a>
             </p>
           </div>
         </div>
