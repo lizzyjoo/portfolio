@@ -58,6 +58,10 @@ export default function Skills() {
               </div>
               <ul className="md:col-span-2 flex flex-col">
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Next.js</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
                   <span className="text-lg">React</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
@@ -65,6 +69,7 @@ export default function Skills() {
                   <span className="text-lg">Tailwind CSS</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
+
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
                   <span className="text-lg">HTML/CSS</span>{" "}
                   <span className="text-gray-600"></span>
@@ -106,6 +111,10 @@ export default function Skills() {
                 </li>
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
                   <span className="text-lg">Prisma ORM</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Supabase</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
