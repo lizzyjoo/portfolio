@@ -43,8 +43,12 @@ export default function Music() {
                 Feburary 2018 Concerto Competition Winners&apos; Concert
               </a>
             </button>
+            <button>
+              <a href="https://youtu.be/MQlFaFAwPrk?si=fwDyXRLYZASvuBWH">
+                May 2026 Schubert Violin & Piano Duo Recital @MIT
+              </a>
+            </button>
             <button></button>
-            <button>gallery</button>
             <button></button>
             <button>interests</button>
             <button></button>

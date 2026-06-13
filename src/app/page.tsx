@@ -18,8 +18,9 @@ export default function Home() {
 
   useGSAP(
     () => {
-      // section reveal
-      gsap.utils.toArray<HTMLElement>(".sect").forEach((section) => {
+      gsap.utils.toArray<HTMLElement>(".sect").forEach((section, index) => {
+        if (index === 0) return; // skip first section
+
         gsap.fromTo(
           section,
           {
@@ -37,13 +38,12 @@ export default function Home() {
               end: "bottom 60%",
               toggleActions: "play none none reverse",
             },
-          }
+          },
         );
       });
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
-
   return (
     <main ref={containerRef}>
       <Header />

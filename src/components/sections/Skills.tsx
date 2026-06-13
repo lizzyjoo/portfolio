@@ -66,16 +66,24 @@ export default function Skills() {
                   <span className="text-gray-600"></span>
                 </li>
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
-                  <span className="text-lg">Tailwind CSS</span>{" "}
+                  <span className="text-lg">TypeScript</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
 
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
-                  <span className="text-lg">HTML/CSS</span>{" "}
+                  <span className="text-lg">HTML/Tailwind CSS</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Zustand</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">React Query</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
                 <li className="flex justify-between items-center py-4">
-                  <span className="text-lg">TipTap</span>{" "}
+                  <span className="text-lg">Socket.io</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
               </ul>
@@ -106,19 +114,31 @@ export default function Skills() {
                   <span className="text-gray-600"></span>
                 </li>
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Flask / SQLAlchemy</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
                   <span className="text-lg">PostgreSQL</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
-                  <span className="text-lg">Prisma ORM</span>{" "}
-                  <span className="text-gray-600"></span>
-                </li>
-                <li className="flex justify-between items-center py-4 border-b border-gray-800">
-                  <span className="text-lg">Supabase</span>{" "}
+                  <span className="text-lg">Prisma</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
                 <li className="flex justify-between items-center py-4 border-b border-gray-800">
                   <span className="text-lg">REST APIs / JWT / OAuth</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Socket.io (server)</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">FastAPI</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Playwright</span>{" "}
                   <span className="text-gray-600"></span>
                 </li>
 
@@ -155,7 +175,7 @@ export default function Skills() {
                     target="_blank"
                     className="flex justify-between items-center py-4 border-b border-gray-800 hover:text-brand-green transition-colors"
                   >
-                    <span className="text-lg">Javascript / Typescript</span>{" "}
+                    <span className="text-lg">Typescript / Javascript</span>{" "}
                     <span className="text-gray-600"></span>
                   </a>
                 </li>
@@ -225,6 +245,46 @@ export default function Skills() {
               <div className="flex flex-col">
                 <span className="text-sm text-gray-600 mb-4">04</span>
                 <h3 className="font-display text-5xl md:text-6xl text-black">
+                  DevOps
+                </h3>
+              </div>
+              <ul className="md:col-span-2 flex flex-col">
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">AWS / SST</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Docker</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">GitHub Actions / CI/CD</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4 border-b border-gray-800">
+                  <span className="text-lg">Vercel</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+                <li className="flex justify-between items-center py-4">
+                  <span className="text-lg">Railway / Neon / Cloudflare</span>{" "}
+                  <span className="text-gray-600"></span>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="grid grid-cols-1 lg:grid-cols-3 gap-8 gsap-fade-up"
+              style={{
+                translate: "none",
+                rotate: "none",
+                scale: "none",
+                opacity: 1,
+                visibility: "inherit",
+                transform: "translate(0px, 0px)",
+              }}
+            >
+              <div className="flex flex-col">
+                <span className="text-sm text-gray-600 mb-4">05</span>
+                <h3 className="font-display text-5xl md:text-6xl text-black">
                   Tools
                 </h3>
                 {/* <p className="text-brand-gray mt-4 text-sm">
@@ -242,26 +302,7 @@ export default function Skills() {
                     <span className="text-gray-600"></span>
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="flex justify-between items-center py-4 border-b border-gray-800 hover:text-brand-green transition-colors"
-                    href="https://www.udemy.com/certificate/UC-8022c668-4f52-4ce4-9f57-7d2ff1344b7a/"
-                    target="_blank"
-                  >
-                    <span className="text-lg">Docker</span>{" "}
-                    <span className="text-gray-600"></span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="flex justify-between items-center py-4 border-b border-gray-800 hover:text-brand-green transition-colors"
-                    href="https://www.coursera.org/account/accomplishments/verify/LZYQ9PFKZ33U"
-                    target="_blank"
-                  >
-                    <span className="text-lg">Railway / Vercel</span>{" "}
-                    <span className="text-gray-600"></span>
-                  </a>
-                </li>
+
                 <li>
                   <a
                     href="https://www.coursera.org/account/accomplishments/verify/FSGH2BHVKVDS"
@@ -278,7 +319,7 @@ export default function Skills() {
                     target="_blank"
                     className="flex justify-between items-center py-4 border-b border-gray-800 hover:text-brand-green transition-colors"
                   >
-                    <span className="text-lg">VS Code</span>{" "}
+                    <span className="text-lg">Figma</span>{" "}
                     <span className="text-gray-600"></span>
                   </a>
                 </li>
@@ -289,16 +330,6 @@ export default function Skills() {
                     className="flex justify-between items-center py-4 border-b border-gray-800 hover:text-brand-green transition-colors"
                   >
                     <span className="text-lg">Jupyter</span>{" "}
-                    <span className="text-gray-600"></span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://api.certificates.dev/certificates/9df3592d-dd7f-4eb7-aac6-9c7ac9fd06d1/download?signature=2ca514f104d6a6598e154ca1798087f3d3c2e4f967ca9b250dfe4221a61b783d"
-                    target="_blank"
-                    className="flex justify-between items-center py-4 border-b border-gray-800 hover:text-brand-green transition-colors"
-                  >
-                    <span className="text-lg">Figma</span>{" "}
                     <span className="text-gray-600"></span>
                   </a>
                 </li>

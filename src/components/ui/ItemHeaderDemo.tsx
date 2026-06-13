@@ -37,7 +37,11 @@ export function ItemHeaderDemo() {
     <div className="flex w-full max-w-xxl gap-6 justify-center">
       <ItemGroup className="grid grid-cols-1 lg:grid-cols-4 gap-8 gsap-fade-up">
         {models.map((model) => (
-          <Item key={model.name} variant="outline">
+          <Item
+            key={model.name}
+            variant="outline"
+            className="transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-lg"
+          >
             <ItemHeader>
               <Image
                 src={model.image}

@@ -34,7 +34,7 @@ export default function Main() {
               transform: "translate(0px, 0px)",
             }}
           >
-            I’m a <span style={{ fontWeight: 700 }}>full-stack developer</span>{" "}
+            I’m a <span style={{ fontWeight: 700 }}>software engineer</span>{" "}
             with a background in{" "}
             <span style={{ fontStyle: "italic" }}>neuroscience research</span>{" "}
             and lifelong connection to{" "}
@@ -56,9 +56,8 @@ export default function Main() {
               transform: "translate(0px, 0px)",
             }}
           >
-            I build full-stack applications and software tools that balance
-            analytical rigor with creativity, turning complex ideas into usable
-            experiences.
+            I love playing classical music, going out for culinary adventures,
+            <br></br>and building web apps!
           </p>
           <p
             className="gsap-fade-up"
@@ -71,8 +70,15 @@ export default function Main() {
               transform: "translate(0px, 0px)",
             }}
           >
-            Currently seeking software engineering roles where I can grow as a
-            developer and contribute to meaningful projects.
+            Currently a software engineer{" "}
+            <a className="underline" href="https://boredm.com/">
+              @BoreDM
+            </a>
+            {" & "}
+            <a className="underline" href="https://www.pcuro.com/">
+              @Pcuro
+            </a>
+            .
           </p>
         </div>
       </div>
