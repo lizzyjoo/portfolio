@@ -1,26 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
 const sectionThemes = {
-  home: {
-    textColor: "black",
-  },
-  software: {
-    textColor: "white",
-  },
-  services: {
-    textColor: "black",
-  },
-  research: {
-    textColor: "black",
-  },
-  music: {
-    textColor: "black",
-  },
-  about: {
-    textColor: "black",
-  },
+  home: { textColor: "black" },
+  skills: { textColor: "black" },
+  research: { textColor: "black" },
+  music: { textColor: "black" },
+  about: { textColor: "black" },
 } as const;
-
 type SectionId = keyof typeof sectionThemes;
 
 export default function Header() {
@@ -44,7 +30,7 @@ export default function Header() {
         // Triggers when section crosses roughly where the header sits
         rootMargin: "-10% 0px -85% 0px",
         threshold: 0,
-      }
+      },
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -68,7 +54,12 @@ export default function Header() {
           >
             <a
               href="#skills"
-              data-cursor-view=""
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("skills")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
               className="hover:opacity-60 transition-opacity"
             >
               Software

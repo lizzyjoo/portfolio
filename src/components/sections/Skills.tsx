@@ -7,17 +7,7 @@ export default function Skills() {
       style={{ backgroundColor: "#f5f5f0" }}
     >
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 gap-8 items-start">
-        <h2
-          className="text-6xl md:text-8xl text-gray-500 gsap-section-title font-bold"
-          style={{
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            transform: "translate3d(0px, -18.2199px, 0px)",
-            opacity: 1,
-            visibility: "inherit",
-          }}
-        >
+        <h2 className="text-6xl md:text-8xl text-gray-500 gsap-section-title font-bold">
           Skills
         </h2>
         <div className="">

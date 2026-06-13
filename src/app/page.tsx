@@ -18,25 +18,41 @@ export default function Home() {
 
   useGSAP(
     () => {
-      gsap.utils.toArray<HTMLElement>(".sect").forEach((section, index) => {
-        if (index === 0) return; // skip first section
+      // Animate section titles
+      gsap.utils
+        .toArray<HTMLElement>(".gsap-section-title")
+        .forEach((title) => {
+          gsap.fromTo(
+            title,
+            { y: 40, opacity: 0 },
+            {
+              y: 0,
+              opacity: 1,
+              duration: 1,
+              ease: "power3.out",
+              scrollTrigger: {
+                trigger: title,
+                start: "top 85%",
+                toggleActions: "play none none none",
+              },
+            },
+          );
+        });
 
+      // Animate content blocks
+      gsap.utils.toArray<HTMLElement>(".gsap-fade-up").forEach((el) => {
         gsap.fromTo(
-          section,
-          {
-            y: 100,
-            opacity: 0,
-          },
+          el,
+          { y: 30, opacity: 0 },
           {
             y: 0,
             opacity: 1,
-            duration: 1.75,
-            ease: "power4.out",
+            duration: 0.8,
+            ease: "power3.out",
             scrollTrigger: {
-              trigger: section,
+              trigger: el,
               start: "top 90%",
-              end: "bottom 60%",
-              toggleActions: "play none none reverse",
+              toggleActions: "play none none none",
             },
           },
         );

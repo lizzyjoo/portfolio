@@ -10,14 +10,6 @@ export default function Main() {
           <h1
             id="hero-name"
             className="text-7xl sm:text-8xl md:text-9xl font-semibold tracking-tighter leading-none gsap-fade-up"
-            style={{
-              translate: "none",
-              rotate: "none",
-              scale: "none",
-              opacity: 1,
-              visibility: "inherit",
-              transform: "translate(0px, 0px)",
-            }}
           >
             Lizzy Joo
           </h1>
@@ -45,17 +37,7 @@ export default function Main() {
           </p>
         </div>
         <div className="md:col-start-4 md:col-span-2 flex flex-col gap-8 text-sm text-gray-600">
-          <p
-            className="gsap-fade-up"
-            style={{
-              translate: "none",
-              rotate: "none",
-              scale: "none",
-              opacity: 1,
-              visibility: "inherit",
-              transform: "translate(0px, 0px)",
-            }}
-          >
+          <p className="gsap-fade-up">
             I love playing classical music, going out for culinary adventures,
             <br></br>and building web apps!
           </p>
