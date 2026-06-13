@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 const sectionThemes = {
   home: { textColor: "black" },
-  skills: { textColor: "black" },
+  skills: { textColor: "black" }, // was "software"
   research: { textColor: "black" },
   music: { textColor: "black" },
   about: { textColor: "black" },
@@ -54,12 +54,7 @@ export default function Header() {
           >
             <a
               href="#skills"
-              onClick={(e) => {
-                e.preventDefault();
-                document
-                  .getElementById("skills")
-                  ?.scrollIntoView({ behavior: "smooth" });
-              }}
+              data-cursor-view=""
               className="hover:opacity-60 transition-opacity"
             >
               Software
