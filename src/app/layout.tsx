@@ -18,26 +18,10 @@ export default function RootLayout({
         <div
           id="cursor-dot"
           className="fixed top-0 left-0 w-3 h-3 bg-brand-green rounded-full z-[9999] pointer-events-none origin-center transform-gpu scale-0 hidden md:flex items-center justify-center"
-          style={{
-            transform:
-              "translate(-50%, -50%) translate(845px, 178px) scale(0, 0)",
-            translate: "none",
-            rotate: "none",
-            scale: "none",
-            backgroundColor: "rgb(57, 255, 20)",
-          }}
         >
           <span
             id="cursor-text"
             className="text-xs text-brand-dark font-semibold opacity-0"
-            style={{
-              translate: "none",
-              rotate: "none",
-              scale: "none",
-              transform: "translate(0px, 0px)",
-              color: "rgb(255, 255, 255)",
-              opacity: 0,
-            }}
           >
             View
           </span>

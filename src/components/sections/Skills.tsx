@@ -7,35 +7,19 @@ export default function Skills() {
       style={{ backgroundColor: "#f5f5f0" }}
     >
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 gap-8 items-start">
-        <h2 className="text-6xl md:text-8xl text-gray-500 gsap-section-title font-bold">
+        <h2 className="text-6xl md:text-8xl text-gray-500 animate-on-scroll font-bold">
           Skills
         </h2>
         <div className="">
           <p
-            className="text-3xl md:text-4xl text-black gsap-fade-up"
-            style={{
-              translate: "none",
-              rotate: "none",
-              scale: "none",
-              opacity: 1,
-              visibility: "inherit",
-              transform: "translate(0px, 0px)",
-            }}
+            className="text-3xl md:text-4xl text-black animate-on-scroll"
           >
             Check out what I can do below and see how I can help bring your
             vision to life 👇
           </p>
           <div className="flex flex-col gap-24 mt-8">
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8 gsap-fade-up"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
+              className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-on-scroll"
             >
               <div className="flex flex-col">
                 <span className="text-sm text-gray-600 mb-4">01</span>
@@ -79,15 +63,7 @@ export default function Skills() {
               </ul>
             </div>
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8 gsap-fade-up"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
+              className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-on-scroll"
             >
               <div className="flex flex-col">
                 <span className="text-sm text-gray-600 mb-4">02</span>
@@ -139,15 +115,7 @@ export default function Skills() {
               </ul>
             </div>
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8 gsap-fade-up"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
+              className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-on-scroll"
             >
               <div className="flex flex-col">
                 <span className="text-sm text-gray-600 mb-4">03</span>
@@ -222,15 +190,7 @@ export default function Skills() {
               </ul>
             </div>
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8 gsap-fade-up"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
+              className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-on-scroll"
             >
               <div className="flex flex-col">
                 <span className="text-sm text-gray-600 mb-4">04</span>
@@ -262,15 +222,7 @@ export default function Skills() {
               </ul>
             </div>
             <div
-              className="grid grid-cols-1 lg:grid-cols-3 gap-8 gsap-fade-up"
-              style={{
-                translate: "none",
-                rotate: "none",
-                scale: "none",
-                opacity: 1,
-                visibility: "inherit",
-                transform: "translate(0px, 0px)",
-              }}
+              className="grid grid-cols-1 lg:grid-cols-3 gap-8 animate-on-scroll"
             >
               <div className="flex flex-col">
                 <span className="text-sm text-gray-600 mb-4">05</span>

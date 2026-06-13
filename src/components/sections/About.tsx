@@ -8,7 +8,7 @@ export default function About() {
       style={{ backgroundColor: "#faf9f6" }}
     >
       <div className="w-full max-w-7xl mx-auto">
-        <h2 className="text-6xl md:text-8xl text-gray-500gsap-section-title font-bold">
+        <h2 className="text-6xl md:text-8xl text-gray-500animate-on-scroll font-bold">
           About
         </h2>
         <div className="about mt-10 flex flex-col gap-12 md:grid md:grid-cols-3 md:gap-16 ">
